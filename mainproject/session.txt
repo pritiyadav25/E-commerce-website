@@ -1,0 +1,74 @@
+How to Set Session
+==================
+request.session['sessionName']="xyz@gmail.com"
+request.session['user']="xyz@gmail.com"
+
+================
+How to get session in .py  file
+
+x=request.session.get("sessionName")
+x=request.session.get('user')#xyz@gmail.com
+
+print(x)
+
+How to get session in .html file
+===============================
+request.session.sessionName
+request.session.user
+
+{{request.session.user}}
+
+================================
+How to delete session
+
+del request.session['sessionName']
+
+del request.session['user']
+=================================
+x=request.session.get('user')
+if x :
+	del request.session['user']
+	
+	HTML Page
+{% if request.session.user %}
+{{del request.session.user }}
+{%endif %}
+
+
+
+{% if request.session.user %}
+{{request.session.user}}
+{% else %}
+default@gmail.com
+{% endif %}
+
+=======================
+register  email="techpilelko1@gmail.com"
+select * from register where email="techpilelko1@gmail.com"
+
+x=register.objects.filter(email="abc@gmail.com").count()
+
+x=register.objects.filter(email="Ram1@gmail.com",passwd=12345).count()
+
+x=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
