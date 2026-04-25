@@ -4,9 +4,14 @@ One short sentence describing what this project does.
 
 ## Features
 
-- Feature 1 (e.g., User authentication)
-- Feature 3 (e.g., REST API)
-
+- User registration, login, and profile management
+- Browse products with search, filters, and sorting
+- Add to cart with quantity updates
+- Secure checkout with multiple payment options
+- Order history and status tracking
+- Product reviews and ratings
+- Admin dashboard to manage products, orders, and users
+- Wishlist and coupon system (optional)
 ## Tech Stack
 
 - Python
